@@ -39,7 +39,7 @@ _For this project, look at these concepts:_
   <summary>Click to show/hide file contents</summary>
 
   ```python3
-  #!/usrr/bin/env python3
+  #!/usr/bin/env python3
   var = __import__('file').var
 
   print(var())
