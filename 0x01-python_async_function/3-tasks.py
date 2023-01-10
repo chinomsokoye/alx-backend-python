@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Tasks
-Write function task_wait_random, takes integer argument max_delay 
+Write function task_wait_random, takes integer argument max_delay
 Returns a asyncio.Task
 """
 import asyncio
