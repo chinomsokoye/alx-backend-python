@@ -25,7 +25,6 @@ $ python -m unittest path/to/test_file.py
 
 ## General Requirements
 
-* Allowed editors: `vi`, `vim`, `emacs`
 * Files interpreted/compiled on Ubuntu 18.04 LTS using `python3` (version 3.7)
 * First line of file using exactly shebang `#!/usr/bin/env python3`
 * Mandatory `README.md` file
@@ -40,17 +39,17 @@ $ python -m unittest path/to/test_file.py
 
 ## Required Files
 
-`main.py` (or [download](https://www.intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
+`utils.py` (or [download](https://www.intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
 <details>
   <summary>Click to show/hide file contents</summary>
 
   ```python3
   #!/usr/bin/env python3
-"""Generic utilities for github org client.
-"""
-import requests
-from functools import wraps
-from typing import (
+  """Generic utilities for github org client.
+  """
+  import requests
+  from functools import wraps
+  from typing import (
     Mapping,
     Sequence,
     Any,
@@ -128,7 +127,7 @@ def memoize(fn: Callable) -> Callable:
   <summary>Click to show/hide file contents</summary>
 
   ```python3
-  #!/usr/bin/env python3
+#!/usr/bin/env python3
 """A github org client
 """
 from typing import (
