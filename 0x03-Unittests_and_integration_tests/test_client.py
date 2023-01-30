@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Unit test Test client
+""" Unittest Test client
 """
 import unittest
 import json
